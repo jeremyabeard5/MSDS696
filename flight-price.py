@@ -50,11 +50,11 @@ if __name__ == "__main__":
     
     
     #service = Service(executable_path='C\:\\Users\\jerem\\OneDrive\\Documents\\School\\_REGIS\\2023-08_Fall\\MSDS696\\MSDS696\\geckodriver-v0.33.0-win64\\geckodriver.exe')
-    service = Service(executable_path='C:\\Users\\jerem\\OneDrive\\Documents\\School\\_REGIS\\2023-08_Fall\\MSDS696\\MSDS696\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe')
+    service = Service(executable_path='C:\\Users\\jerem\\OneDrive\\Documents\\School\\_REGIS\\2023-08_Fall\\MSDS696\\MSDS696\\chromedriver-win64-119\\chromedriver.exe')
     options = webdriver.ChromeOptions()
     driver = webdriver.Chrome(service=service, options=options)
-    # ...
-    #driver.quit()
+    
+    driver.quit()
         
     
     #wait = WebDriverWait(driver, 10)
