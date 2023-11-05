@@ -1,0 +1,16 @@
+MSDS 696
+
+
+50th / 58th and Federal
+Loyola Rm 10
+
+https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction
+
+polars - drop-in replacement for pandas
+
+comparitive analysis
+forecasting price and volatility
+
+arim model? 
+https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp
+
