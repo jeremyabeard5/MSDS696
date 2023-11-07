@@ -65,22 +65,22 @@ headers = {
 
 ############################################
 
-print()
-print("try 4: getting nearby airports")
-time.sleep(2)
+#print()
+#print("try 4: getting nearby airports")
+#time.sleep(2)
 
-url = "https://sky-scrapper.p.rapidapi.com/api/v1/flights/getNearByAirports"
+#url = "https://sky-scrapper.p.rapidapi.com/api/v1/flights/getNearByAirports"
 
-querystring = {"lat":"39.7365633","lng":"-104.8236107"}
+#querystring = {"lat":"39.7365633","lng":"-104.8236107"}
 
-headers = {
-	"X-RapidAPI-Key": "347c541513msh80c201a41e39ddep1dd960jsnf10b2afec703",
-	"X-RapidAPI-Host": "sky-scrapper.p.rapidapi.com"
-}
+#headers = {
+#	"X-RapidAPI-Key": "347c541513msh80c201a41e39ddep1dd960jsnf10b2afec703",
+#	"X-RapidAPI-Host": "sky-scrapper.p.rapidapi.com"
+#}
 
-response = requests.get(url, headers=headers, params=querystring)
+#response = requests.get(url, headers=headers, params=querystring)
 
-print(response.json())
+#print(response.json())
 
 ############################################
 
@@ -136,35 +136,41 @@ print(response.json())
 #    print('Response could not be serialized')
     
 ####################################
-#https://rapidapi.com/ntd119/api/booking-com13
-url = "https://booking-com13.p.rapidapi.com/flights/one-way"
+# HEY JEREMY THIS IS THE ONE THAT WORKS
 
-year = 2024
-month = 9
-day = 19
-datecode = str(year) + '-' + str(month) + '-' + str(day)
-departure_city = 'Denver, USA, Colorado'
-arrival_city = 'Cincinnati, USA, Ohio'
-querystring = {"location_from":departure_city,"location_to":arrival_city,"departure_date":datecode,"page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
+
+#    LOOOOOK!!!!
+
+
+#https://rapidapi.com/ntd119/api/booking-com13
+#url = "https://booking-com13.p.rapidapi.com/flights/one-way"
+
+#year = 2024
+#month = 9
+#day = 19
+#datecode = str(year) + '-' + str(month) + '-' + str(day)
+#departure_city = 'Denver, USA, Colorado'
+#arrival_city = 'Cincinnati, USA, Ohio'
+#querystring = {"location_from":departure_city,"location_to":arrival_city,"departure_date":datecode,"page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
 #querystring = {"location_from":"Denver, USA, Colorado","location_to":"Cincinnati, USA, Ohio","departure_date":datecode,"page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
 #querystring = {"location_from":"Denver, USA, Colorado","location_to":"Cincinnati, USA, Ohio","departure_date":"2023-12-19","page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
 
-headers = {
-	"X-RapidAPI-Key": "347c541513msh80c201a41e39ddep1dd960jsnf10b2afec703",
-	"X-RapidAPI-Host": "booking-com13.p.rapidapi.com"
-}
+#headers = {
+#	"X-RapidAPI-Key": "347c541513msh80c201a41e39ddep1dd960jsnf10b2afec703",
+#	"X-RapidAPI-Host": "booking-com13.p.rapidapi.com"
+#}
 
-response = requests.get(url, headers=headers, params=querystring)
+#response = requests.get(url, headers=headers, params=querystring)
 
 #print(response.json())
-filen = 'flights_' + datecode + '.json'
-try:
-    response_json = response.json()
-    with open(filen, 'w') as outfile:
-        json.dump(response_json, outfile, indent=4)
-    #print(json.dumps(response_json, indent=4))
-except JSONDecodeError:
-    print('Response could not be serialized')
+#filen = 'flights_' + datecode + '.json'
+#try:
+#    response_json = response.json()
+#    with open(filen, 'w') as outfile:
+#        json.dump(response_json, outfile, indent=4)
+#    #print(json.dumps(response_json, indent=4))
+#except JSONDecodeError:
+#    print('Response could not be serialized')
     
     
 # Let's plan some...
@@ -246,15 +252,51 @@ except JSONDecodeError:
 #    This should be 30 flight searches every day for 10 months~~300 days, so about 9000 flight searches. 
 #    Each will return about 10 flights, so 90000 flights.
     
+def get_flights(dep, arr, date):
+    # instantiate flights variable with empty string
+    flights = ''
+       
+    url = "https://booking-com13.p.rapidapi.com/flights/one-way"
+
+    year = 2024
+    month = 9
+    day = 19
+    datecode = date
+    departure_city = dep #'Denver, USA, Colorado'
+    arrival_city = arr #'Cincinnati, USA, Ohio'
+    querystring = {"location_from":departure_city,"location_to":arrival_city,"departure_date":datecode,"page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
+    #querystring = {"location_from":"Denver, USA, Colorado","location_to":"Cincinnati, USA, Ohio","departure_date":datecode,"page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
+    #querystring = {"location_from":"Denver, USA, Colorado","location_to":"Cincinnati, USA, Ohio","departure_date":"2023-12-19","page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
+
+    headers = {
+        "X-RapidAPI-Key": "347c541513msh80c201a41e39ddep1dd960jsnf10b2afec703",
+        "X-RapidAPI-Host": "booking-com13.p.rapidapi.com"
+    }
+
+    response = requests.get(url, headers=headers, params=querystring)
+
+    #print(response.json())
+    filen = 'flights_' + datecode + '.json'
+    try:
+        response_json = response.json()
+        #with open(filen, 'w') as outfile:
+        #    json.dump(response_json, outfile, indent=4)
+        flights = json.dumps(response_json, indent=4)
+    except JSONDecodeError:
+        print('Response could not be serialized')
     
+    return flights
+  
     
+# start main python function
+if __name__ == "__main__":
+    print("Hello World!")
     
+    # I will start small, DEN-CVG, 2023-12-19
+    temp = get_flights('Denver, USA, Colorado', 'Cincinnati, USA, Ohio', '2023-12-19')
     
-    
-    
-    
-    
-    
+    print("temp is:")
+    print(temp)
     
     
     
