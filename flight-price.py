@@ -34,6 +34,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 
 format = "%Y-%m-%d"
 
@@ -52,14 +53,19 @@ if __name__ == "__main__":
     #service = Service(executable_path='C\:\\Users\\jerem\\OneDrive\\Documents\\School\\_REGIS\\2023-08_Fall\\MSDS696\\MSDS696\\geckodriver-v0.33.0-win64\\geckodriver.exe')
     service = Service(executable_path='C:\\Users\\jerem\\OneDrive\\Documents\\School\\_REGIS\\2023-08_Fall\\MSDS696\\MSDS696\\chromedriver-win64-119\\chromedriver.exe')
     options = webdriver.ChromeOptions()
+    options.add_argument('--ignore-certificate-errors')
     driver = webdriver.Chrome(service=service, options=options)
+    #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     
-    driver.quit()
+    kayak = 'http://www.kayak.com/flights/DEN-CVG/2023-12-23/2023-12-27/2adults?sort=bestflight_a'
+    
+    driver.get(kayak) 
+    #driver.quit()
         
     
     #wait = WebDriverWait(driver, 10)
-    #kayak = 'https://www.kayak.com/flights/DEN-CVG/2023-12-23/2023-12-27/2adults?sort=bestflight_a'
-    #driver.get(kayak) 
+    
+    
     #wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[46]/div[3]/div/button'))).click()
     #xp_prices = '//a[@class="booking-link "]/span[@class="price option-text"]'
     #prices = wait.until(EC.presence_of_all_elements_located((By.XPATH,xp_prices)))
