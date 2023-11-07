@@ -1,0 +1,129 @@
+{
+    "currentPage": 1,
+    "data": {
+        "__typename": "Search",
+        "availableFilters": [],
+        "availableSortTypes": [
+            {
+                "__typename": "SortTypeOption",
+                "code": "RECOMMENDATION",
+                "name": "Recommended flights"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "CARRIER_PROMO",
+                "name": "Promotional offers"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "CHEAP_TRIP",
+                "name": "Cheapest first"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "SHORT_TRIP",
+                "name": "Shortest travel time"
+            }
+        ],
+        "carrierCodes": [],
+        "carrierNames": [],
+        "filteredFlightsCount": 0,
+        "flights": [],
+        "flightsCount": 0,
+        "quickSortPrices": {
+            "__typename": "QuickSortPrices",
+            "carrierPromo": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 0
+            },
+            "cheapTrip": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 0
+            },
+            "recommendation": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 0
+            },
+            "shortTrip": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 0
+            }
+        },
+        "resultSetMetaData": {
+            "__typename": "ResultSetMetaData",
+            "marketingCarriers": [],
+            "priceRange": {
+                "__typename": "PriceRange",
+                "max": 0,
+                "min": 0
+            },
+            "travelTimeRange": {
+                "__typename": "TravelTimeRange",
+                "max": 0,
+                "min": 0
+            }
+        },
+        "routes": [
+            {
+                "__typename": "TripRoute",
+                "departureAt": "2024-12-19T00:00",
+                "departureDate": "2024-12-19",
+                "departureTimeOfDay": null,
+                "destination": {
+                    "__typename": "RegionNew",
+                    "cityCode": "CVG",
+                    "cityName": "Cincinnati",
+                    "code": "CVG",
+                    "continentCode": "NA",
+                    "continentName": "North America",
+                    "countryCode": "US",
+                    "countryName": "USA",
+                    "name": "Cincinnati"
+                },
+                "origin": {
+                    "__typename": "RegionNew",
+                    "cityCode": "DEN",
+                    "cityName": "Denver",
+                    "code": "DEN",
+                    "continentCode": "NA",
+                    "continentName": "North America",
+                    "countryCode": "US",
+                    "countryName": "USA",
+                    "name": "Denver"
+                }
+            }
+        ],
+        "searchPath": "/air/form/DENCVG19DEC/1/-/d/c:Y",
+        "sponsoredTrips": [],
+        "travelers": [
+            {
+                "__typename": "SearchTraveler",
+                "ageType": "ADT"
+            }
+        ],
+        "tripCampaigns": [],
+        "type": "ONE_WAY",
+        "validWithVoucher": false
+    },
+    "message": "Successful",
+    "resultsPerPage": 10,
+    "status": true,
+    "totalPages": 0,
+    "totalResultCount": 0
+}

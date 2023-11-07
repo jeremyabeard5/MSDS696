@@ -1,0 +1,4319 @@
+{
+    "currentPage": 1,
+    "data": {
+        "__typename": "Search",
+        "availableFilters": [],
+        "availableSortTypes": [
+            {
+                "__typename": "SortTypeOption",
+                "code": "RECOMMENDATION",
+                "name": "Recommended flights"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "CARRIER_PROMO",
+                "name": "Promotional offers"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "CHEAP_TRIP",
+                "name": "Cheapest first"
+            },
+            {
+                "__typename": "SortTypeOption",
+                "code": "SHORT_TRIP",
+                "name": "Shortest travel time"
+            }
+        ],
+        "carrierCodes": [],
+        "carrierNames": [],
+        "filteredFlightsCount": 26,
+        "flights": [
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T14:31",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T09:45",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 9960000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "UA1978",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484983",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "UA1978-19May24-T,bt9gfw",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=UA1978-19May24-T,bt9gfw",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849830",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 908
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 21773
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 2842
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849830"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 908
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 21773
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 2842
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849830"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "PRICE",
+                    "WEIGHTED"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849830"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T22:11",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T17:35",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 9360000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "UA745",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484982",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "UA745-19May24-S,aoak3l",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=UA745-19May24-S,aoak3l",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849820",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 1008
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24801
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3046
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849820"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 1008
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24801
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3046
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849820"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "SPEED"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849820"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T09:35",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T06:34",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "duration": 7260000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1067",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 2400000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T13:38",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T10:15",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 8580000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1658",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484988",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA1067-19May24-B_AA1658-19May24-B,16ljjwy",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA1067-19May24-B_AA1658-19May24-B,16ljjwy",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849880",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849880"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849880"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "STAY"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849880"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T21:50",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T16:26",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CLT",
+                                    "cityName": "Charlotte",
+                                    "code": "CLT",
+                                    "name": "Charlotte"
+                                },
+                                "duration": 12240000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA2372",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 1800000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T23:52",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T22:20",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 5520000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA626",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CLT",
+                                    "cityName": "Charlotte",
+                                    "code": "CLT",
+                                    "name": "Charlotte"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484984",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA2372-19May24-B_AA626-19May24-B,14d0bq3",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA2372-19May24-B_AA626-19May24-B,14d0bq3",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849840",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 152
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24871
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3836
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849840"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 152
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24871
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3836
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849840"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849840"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T10:30",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T05:12",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CLT",
+                                    "cityName": "Charlotte",
+                                    "code": "CLT",
+                                    "name": "Charlotte"
+                                },
+                                "duration": 11880000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA573",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 9000000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T14:23",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T13:00",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 4980000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1484",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CLT",
+                                    "cityName": "Charlotte",
+                                    "code": "CLT",
+                                    "name": "Charlotte"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484985",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA573-19May24-B_AA1484-19May24-B,14qic7z",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA573-19May24-B_AA1484-19May24-B,14qic7z",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849850",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 152
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24871
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3836
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849850"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 152
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24871
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3836
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849850"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849850"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T19:40",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T16:02",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CHI",
+                                    "cityName": "Chicago",
+                                    "code": "ORD",
+                                    "name": "Chicago Ohare"
+                                },
+                                "duration": 9480000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1624",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 2100000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T22:35",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T20:15",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 4800000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA3874",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "Envoy Air As American Eagle"
+                                },
+                                "operatingInformation": "Envoy Air As American Eagle",
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CHI",
+                                    "cityName": "Chicago",
+                                    "code": "ORD",
+                                    "name": "Chicago Ohare"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484986",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA1624-19May24-B_AA3874-19May24-B,16m6103",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA1624-19May24-B_AA3874-19May24-B,16m6103",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849860",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849860"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849860"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849860"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T19:55",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T16:53",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "duration": 7320000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1832",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 2400000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T23:53",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T20:35",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 8280000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA2309",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484987",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA1832-19May24-B_AA2309-19May24-B,16ip0gc",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA1832-19May24-B_AA2309-19May24-B,16ip0gc",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849870",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849870"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849870"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849870"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T08:00",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T05:00",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "duration": 7200000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA2612",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 8100000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T13:38",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T10:15",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 8580000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1658",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484991",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA2612-19May24-B_AA1658-19May24-B,16if6hb",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA2612-19May24-B_AA1658-19May24-B,16if6hb",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849910",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849910"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849910"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849910"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T17:50",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T14:47",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "duration": 7380000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1321",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 9900000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T23:53",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T20:35",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 8280000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA2309",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484989",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA1321-19May24-B_AA2309-19May24-B,16a2kxx",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA1321-19May24-B_AA2309-19May24-B,16a2kxx",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849890",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849890"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849890"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849890"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T09:15",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T05:44",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CHI",
+                                    "cityName": "Chicago",
+                                    "code": "ORD",
+                                    "name": "Chicago Ohare"
+                                },
+                                "duration": 9060000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA2771",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 14400000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T15:32",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T13:15",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 4620000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA3419",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "Envoy Air As American Eagle"
+                                },
+                                "operatingInformation": "Envoy Air As American Eagle",
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CHI",
+                                    "cityName": "Chicago",
+                                    "code": "ORD",
+                                    "name": "Chicago Ohare"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484990",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA2771-19May24-B_AA3419-19May24-B,16o5nyq",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA2771-19May24-B_AA3419-19May24-B,16o5nyq",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849900",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849900"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849900"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849900"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            }
+        ],
+        "flightsCount": 26,
+        "quickSortPrices": {
+            "__typename": "QuickSortPrices",
+            "carrierPromo": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 21773
+            },
+            "cheapTrip": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 21773
+            },
+            "recommendation": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 21773
+            },
+            "shortTrip": {
+                "__typename": "CurrencyAmount",
+                "currency": {
+                    "__typename": "Currency",
+                    "code": "USD"
+                },
+                "value": 24801
+            }
+        },
+        "resultSetMetaData": {
+            "__typename": "ResultSetMetaData",
+            "marketingCarriers": [
+                {
+                    "__typename": "CarrierNew",
+                    "code": "AA",
+                    "name": "American Airlines"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "AC",
+                    "name": "Air Canada"
+                },
+                {
+                    "__typename": "CarrierNew",
+                    "code": "UA",
+                    "name": "United Airlines"
+                }
+            ],
+            "priceRange": {
+                "__typename": "PriceRange",
+                "max": 71715,
+                "min": 21773
+            },
+            "travelTimeRange": {
+                "__typename": "TravelTimeRange",
+                "max": 96360000,
+                "min": 9360000
+            }
+        },
+        "routes": [
+            {
+                "__typename": "TripRoute",
+                "departureAt": "2024-05-19T00:00",
+                "departureDate": "2024-05-19",
+                "departureTimeOfDay": null,
+                "destination": {
+                    "__typename": "RegionNew",
+                    "cityCode": "CVG",
+                    "cityName": "Cincinnati",
+                    "code": "CVG",
+                    "continentCode": "NA",
+                    "continentName": "North America",
+                    "countryCode": "US",
+                    "countryName": "USA",
+                    "name": "Cincinnati"
+                },
+                "origin": {
+                    "__typename": "RegionNew",
+                    "cityCode": "DEN",
+                    "cityName": "Denver",
+                    "code": "DEN",
+                    "continentCode": "NA",
+                    "continentName": "North America",
+                    "countryCode": "US",
+                    "countryName": "USA",
+                    "name": "Denver"
+                }
+            }
+        ],
+        "searchPath": "/air/DENCVG19MAY/1/-/d/c:Y",
+        "sponsoredTrips": [
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T14:31",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T09:45",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 9960000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "UA1978",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484983",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "UA1978-19May24-T,bt9gfw",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=UA1978-19May24-T,bt9gfw",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849830",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 908
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 21773
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 2842
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849830"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 908
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 21773
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 2842
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849830"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "PRICE",
+                    "WEIGHTED"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849830"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T22:11",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T17:35",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 9360000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "UA745",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "UA",
+                                    "name": "United Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484982",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "UA745-19May24-S,aoak3l",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=UA745-19May24-S,aoak3l",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849820",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 1008
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24801
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3046
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849820"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 1008
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 24801
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3046
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849820"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "SPEED"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849820"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            },
+            {
+                "__typename": "Trip",
+                "availableExtraProducts": [],
+                "bounds": [
+                    {
+                        "__typename": "BoundNew",
+                        "boundId": "0",
+                        "includedCabinBaggage": {
+                            "__typename": "IncludedCabinBaggage",
+                            "pieces": 1,
+                            "weight": 0,
+                            "weightUnit": "kg"
+                        },
+                        "includedCheckedBaggage": null,
+                        "segments": [
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T09:35",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T06:34",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "duration": 7260000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1067",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DEN",
+                                    "cityName": "Denver",
+                                    "code": "DEN",
+                                    "name": "Denver"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "00"
+                            },
+                            {
+                                "__typename": "EventSegment",
+                                "duration": 2400000,
+                                "segmentId": "0E",
+                                "types": [
+                                    "STOP"
+                                ]
+                            },
+                            {
+                                "__typename": "TripSegment",
+                                "aircraftType": "",
+                                "arrivedAt": "2024-05-19T13:38",
+                                "cabinClassName": "Economy",
+                                "departuredAt": "2024-05-19T10:15",
+                                "destination": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "CVG",
+                                    "cityName": "Cincinnati",
+                                    "code": "CVG",
+                                    "name": "Cincinatti"
+                                },
+                                "duration": 8580000,
+                                "equipmentCode": "AIR",
+                                "flightNumber": "AA1658",
+                                "includedCabinBaggage": {
+                                    "__typename": "IncludedCabinBaggage",
+                                    "pieces": 1,
+                                    "weight": null,
+                                    "weightUnit": "kg"
+                                },
+                                "includedCheckedBaggage": null,
+                                "marketingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "numberOfTechnicalStops": 0,
+                                "operatingCarrier": {
+                                    "__typename": "CarrierNew",
+                                    "code": "AA",
+                                    "name": "American Airlines"
+                                },
+                                "operatingInformation": null,
+                                "origin": {
+                                    "__typename": "RegionNew",
+                                    "cityCode": "DFW",
+                                    "cityName": "Dallas",
+                                    "code": "DFW",
+                                    "name": "Dallas"
+                                },
+                                "segmentDetails": [
+                                    {
+                                        "__typename": "SegmentDetailsNew",
+                                        "numberOfSeatsLeft": 0,
+                                        "paxType": "ADT"
+                                    }
+                                ],
+                                "segmentId": "01"
+                            }
+                        ]
+                    }
+                ],
+                "id": "379873255484988",
+                "includedCabinBaggage": {
+                    "__typename": "IncludedCabinBaggage",
+                    "pieces": 1,
+                    "weight": 0,
+                    "weightUnit": "kg"
+                },
+                "includedCheckedBaggage": null,
+                "includedExtraProducts": [],
+                "isVI": false,
+                "paymentMethodPrices": [
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Electron",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "VISA Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MAESTRO",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Debit",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "MASTERCARD Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DINER'S CLUB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "DISCOVER",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "AMERICAN EXPRESS Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    },
+                    {
+                        "__typename": "PaymentMethodPrice",
+                        "name": "JCB Corporate",
+                        "price": {
+                            "__typename": "CurrencyAmount",
+                            "value": 0
+                        },
+                        "type": "CARD"
+                    }
+                ],
+                "selectionKey": "AA1067-19May24-B_AA1658-19May24-B,16ljjwy",
+                "shareableUrl": "https://flights-us.gotogate.com/air/DENCVG19MAY/1/-/d/c:Y?selectionKey=AA1067-19May24-B_AA1658-19May24-B,16ljjwy",
+                "systems": null,
+                "travelerPrices": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "id": "3798732554849880",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849880"
+                    }
+                ],
+                "travelerPricesWithoutPaymentDiscounts": [
+                    {
+                        "__typename": "TravelerPrice",
+                        "price": {
+                            "__typename": "Price",
+                            "markup": {
+                                "__typename": "CurrencyAmount",
+                                "value": 157
+                            },
+                            "price": {
+                                "__typename": "CurrencyAmount",
+                                "currency": {
+                                    "__typename": "Currency",
+                                    "code": "USD"
+                                },
+                                "value": 25026
+                            },
+                            "vat": {
+                                "__typename": "CurrencyAmount",
+                                "value": 3986
+                            }
+                        },
+                        "taxesAndFees": [],
+                        "travelerId": "3798732554849880"
+                    }
+                ],
+                "tripCharacteristics": [],
+                "tripId": "0",
+                "tripTags": [
+                    "STAY"
+                ],
+                "tripTravelers": [
+                    {
+                        "__typename": "TravelerNew",
+                        "ageType": "ADT",
+                        "id": "3798732554849880"
+                    }
+                ],
+                "type": "ONE_WAY",
+                "voucherAmount": {
+                    "__typename": "CurrencyAmount",
+                    "value": 0
+                }
+            }
+        ],
+        "travelers": [
+            {
+                "__typename": "SearchTraveler",
+                "ageType": "ADT"
+            }
+        ],
+        "tripCampaigns": [],
+        "type": "ONE_WAY",
+        "validWithVoucher": false
+    },
+    "message": "Successful",
+    "resultsPerPage": 10,
+    "status": true,
+    "totalPages": 3,
+    "totalResultCount": 26
+}
