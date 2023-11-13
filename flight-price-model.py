@@ -14,11 +14,13 @@ start_time = timeit.default_timer()
 
 import sqlite3
 import pandas as pd
+import matplotlib.pyplot as plt
 import os
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
+dpi = 300
 data_dir = "data"
 flights_dir = "flight-price-api"
 file_path = os.path.join(data_dir, flights_dir)
@@ -68,9 +70,18 @@ if __name__ == "__main__":
     print(df.columns)
     print()
     
+    print("Few Columns of Interest: ")
+    print(df.loc[:, ['orgName', 'destName', 'deptDateTime', 'price']])
+    print()
     
-    
-    
+    print("Creating first plot: Price vs. Date")
+    fig0, ax0 = plt.subplots(figsize=(6,6))
+    df.plot.scatter(x='deptDateTime', y='price', c='DarkBlue', ax=ax0)
+    ax0.set(xlabel='datetime', ylabel='price', title='price by datetime')
+    #df.plot.scatter(x='deptDateTime', y='price', c='DarkBlue')
+    plt.tight_layout()
+    plot0_filename = 'output/01_price-by-date_scatter.png'
+    fig0.savefig(plot0_filename, dpi=dpi)
     
     
     # Now we enter the meat
