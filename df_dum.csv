@@ -1,0 +1,49 @@
+ #   Column                       Non-Null Count  Dtype  
+---  ------                       --------------  -----  
+ 0   deptDayOfWeek                44367 non-null  int64  
+ 1   deptDayOfMonth               44367 non-null  int64  
+ 2   deptDayOfYear                44367 non-null  int64  
+ 3   deptHour                     44367 non-null  int64  
+ 4   deptMonth                    44367 non-null  int64  
+ 5   deptDayOfWeek                44367 non-null  int64  
+ 6   deptDayOfMonth               44367 non-null  int64  
+ 7   deptDayOfYear                44367 non-null  int64  
+ 8   deptHour                     44367 non-null  int64  
+ 9   deptMonth                    44367 non-null  int64  
+ 10  marktName_Aeromexico         44367 non-null  uint8  
+ 11  marktName_Air Canada         44367 non-null  uint8  
+ 12  marktName_Air Transat        44367 non-null  uint8  
+ 13  marktName_Alaska Airlines    44367 non-null  uint8  
+ 14  marktName_Allegiant Air      44367 non-null  uint8  
+ 15  marktName_American Airlines  44367 non-null  uint8  
+ 16  marktName_Breeze Airways     44367 non-null  uint8  
+ 17  marktName_Canada Jetlines    44367 non-null  uint8  
+ 18  marktName_Flair Airlines     44367 non-null  uint8  
+ 19  marktName_Frontier Airlines  44367 non-null  uint8  
+ 20  marktName_Key Lime Air       44367 non-null  uint8  
+ 21  marktName_LATAM              44367 non-null  uint8  
+ 22  marktName_Lynx Air           44367 non-null  uint8  
+ 23  marktName_Porter Airlines    44367 non-null  uint8  
+ 24  marktName_Silver Airways     44367 non-null  uint8  
+ 25  marktName_Spirit Airlines    44367 non-null  uint8  
+ 26  marktName_Sun Country        44367 non-null  uint8  
+ 27  marktName_United Airlines    44367 non-null  uint8  
+ 28  marktName_Volaris            44367 non-null  uint8  
+ 29  marktName_WestJet            44367 non-null  uint8  
+ 30  orgName_Chicago              44367 non-null  uint8  
+ 31  orgName_Cincinnati           44367 non-null  uint8  
+ 32  orgName_Denver               44367 non-null  uint8  
+ 33  orgName_Los Angeles          44367 non-null  uint8  
+ 34  orgName_Miami                44367 non-null  uint8  
+ 35  orgName_New York             44367 non-null  uint8  
+ 36  orgName_Orlando              44367 non-null  uint8  
+ 37  orgName_San Francisco        44367 non-null  uint8  
+ 38  destName_Chicago             44367 non-null  uint8  
+ 39  destName_Cincinnati          44367 non-null  uint8  
+ 40  destName_Denver              44367 non-null  uint8  
+ 41  destName_Los Angeles         44367 non-null  uint8  
+ 42  destName_Miami               44367 non-null  uint8  
+ 43  destName_New York            44367 non-null  uint8  
+ 44  destName_Orlando             44367 non-null  uint8  
+ 45  destName_San Francisco       44367 non-null  uint8  
+ 46  price                        44367 non-null  float64

@@ -19,11 +19,18 @@ import os
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from sklearn import metrics
 
 dpi = 300
 data_dir = "data"
 flights_dir = "flight-price-api"
 file_path = os.path.join(data_dir, flights_dir)
+
+def GetValues(str):
+    print(f"Value counts for {str} column:")
+    print(df[str].value_counts())
+    print()
+    
 
 # start main function
 if __name__ == "__main__":
@@ -43,16 +50,52 @@ if __name__ == "__main__":
     df = pd.read_sql_query("SELECT * FROM flights", conn)
     print(f"Time to create dataframe from database: {timeit.default_timer() - current_time} seconds")
     
+    # Create day_of_week column from datetime
+    df['deptDateTime'] = pd.to_datetime(df['deptDateTime'])
+    df['arrvDateTime'] = pd.to_datetime(df['arrvDateTime'])
+    df['deptDayOfWeek'] = df['deptDateTime'].dt.day_of_week
+    df['arrvDayOfWeek'] = df['arrvDateTime'].dt.day_of_week
+    df['deptDate'] = df['deptDateTime'].dt.date
+    df['arrvDate'] = df['arrvDateTime'].dt.date
+    
+    
     print()
-    print("Dataframe info:")
+    print("OG Dataframe info:")
+    print(df.info())
+    print()
+    
+    # We should have NO null values
+    
+    # Get value counts for marktName and marktCode columns
+    GetValues('marktName')
+    GetValues('marktCode')
+    GetValues('optName')
+    GetValues('optCode')
+    GetValues('orgName')
+    GetValues('orgCode')
+    GetValues('destName')
+    GetValues('destCode')
+    GetValues('currency')
+       
+    # I saw that the only difference between MARKETING airline and OPERATING airline resided with American Airlines
+    # So I will drop the optName and optCode columns
+    # Drop unnecessary columns. We don't care about the codes, about the operating name
+    df = df.drop(columns=['destCode', 'orgCode', 'optCode', 'marktCode', 'optName'])
+    # If the currency value counts length is 1 (only USD), then drop the column
+    if len(df['currency'].value_counts()) == 1:
+        print()
+        print("Only USD observed in currency column. Dropping column.")
+        df = df.drop(columns=['currency'])
+        print()
+    
+    print()
+    print("NEW Dataframe info:")
     print(df.info())
     print()
     
     print("Dataframe head:")
     print(df.head())
     print()
-    
-    
     
     print("Dataframe tail:")
     print(df.tail())
@@ -96,6 +139,25 @@ if __name__ == "__main__":
     #   - Average Price vs. Day of Week, by route
     #   - Average Price vs. Month
     #   - Average Price vs. Month, by airline
+    
+    
+    # Generate Linear Regression Model
+    #df = 
+    
+    
+    
+    
+    
+    
+    # ANALYSIS
+    
+    
+    
+    
+    
+    
+    
+    
     
     # close connection to database
     conn.commit()
