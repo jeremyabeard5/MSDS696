@@ -17,6 +17,20 @@ https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-ar
 
 https://medium.com/junior-dev/how-to-use-git-lfs-large-file-storage-to-push-large-files-to-github-41c8db1e2d65
 
+holoViz : use PANEL 
+
+model comparison
+	use pycarat
 
 
 
+# I saw that the only difference between MARKETING airline and OPERATING airline resided with American Airlines
+# So I will drop the optName and optCode columns
+# Drop unnecessary columns. We don't care about the codes, about the operating name
+df = df.drop(columns=['destCode', 'orgCode', 'optCode', 'marktCode', 'optName'])
+# If the currency value counts length is 1 (only USD), then drop the column
+if len(df['currency'].value_counts()) == 1:
+	print()
+	print("Only USD observed in currency column. Dropping column.")
+	df = df.drop(columns=['currency'])
+	print()
