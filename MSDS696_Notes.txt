@@ -34,3 +34,120 @@ if len(df['currency'].value_counts()) == 1:
 	print("Only USD observed in currency column. Dropping column.")
 	df = df.drop(columns=['currency'])
 	print()
+
+
+
+
+
+FIRST MODEL
+	Linear Regression
+		sklearn linear regression model
+		test_size 0.22 
+		int deptDayOfMonth
+		int deptDayOfYear
+		int deptHour
+		int deptMonth
+		dummy airlines
+		dummy origin
+		dummy destination
+		dummy deptDayOfWeek
+		Mean Squared Error: 6129.73
+		R-squared: 0.3866
+		R-square-2: 0.3968
+		
+	Pycaret 1
+		df_dum
+			int deptDayOfMonth
+			int deptDayOfYear
+			int deptHour
+			int deptMonth
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Default (KFolds) generator
+		Random Forest performed best
+			rf MAE 22.3922, RMSE 41.5714, R_squared 0.8287
+		Extra Trees
+			et MAE 22.2305, RMSE 43.1010, R_squared 0.8158
+		Lightgbm
+			lightgbm MAE 32.3108, RMSE 50.1319, R_squared 0.7515
+			
+	Pycaret 2
+		df_dum2
+			int deptDateTimeOrd
+			int deptHour
+			int deptMonth
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Default (KFolds) generator
+		Random Forest performed best
+			rf MAE 22.0532, RMSE 41.3090, R_squared 0.8309
+		Extra Trees
+			et MAE 22.2147, RMSE 42.9357, R_squared 0.8172
+		Lightgbm
+			lightgbm MAE 32.2642, RMSE 50.4808, R_squared 0.7480
+			
+	Pycaret 3
+		df_time_dum
+			datetime deptDateTime
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Timeseries generator
+		Random Forest performed best
+			rf MAE 55.7333
+			
+	Pycaret 4
+		df_time2_dum
+			datetime deptDate
+			int deptHour
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Timeseries generator
+		Lightgbm performed best
+			lightgbm 55.8252
+			rf MAE 55.8753
+		
+	Pycaret 5
+		df_dum
+			int deptDayOfMonth
+			int deptDayOfYear
+			int deptHour
+			int deptMonth
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Timeseries generator
+		Extra Trees performed the best
+			et MAE 25.9583
+			rf MAE 26.5741
+			
+	Pycaret 6
+		df_dum2
+			int deptDateTimeOrd
+			int deptHour
+			int deptMonth
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Timeseries generator
+		Extra trees performed the best
+			et MAE 25.6388
+			rf MAE 25.9359
+			
+		
+
+
+
+
+
+
+
