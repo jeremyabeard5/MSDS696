@@ -52,6 +52,7 @@ FIRST MODEL
 		dummy destination
 		dummy deptDayOfWeek
 		Mean Squared Error: 6129.73
+		Mean Absolute Error: 54.67673555693131
 		R-squared: 0.3866
 		R-square-2: 0.3968
 		
