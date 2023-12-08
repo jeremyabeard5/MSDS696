@@ -92,6 +92,22 @@ FIRST MODEL
 			lightgbm MAE 32.2642, RMSE 50.4808, R_squared 0.7480
 			
 	Pycaret 3
+		df_dum3
+			float deptDateTimeMktime
+			int deptMonth
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Default (KFolds) generator)
+		Random Forest performed best
+			rf MAE 27.4715, RMSE 48.1705, R_squared 0.7702
+		Extra Trees
+			et MAE 27.2594, RMSE 51.9749, R_squared 0.7320
+		Lightgbm
+			lightgbm MAE 35.1553, RMSE 53.6906, R_squared 0.7148
+		
+	Pycaret 4
 		df_time_dum
 			datetime deptDateTime
 			dummy airlines
@@ -102,7 +118,7 @@ FIRST MODEL
 		Random Forest performed best
 			rf MAE 55.7333
 			
-	Pycaret 4
+	Pycaret 5
 		df_time2_dum
 			datetime deptDate
 			int deptHour
@@ -115,7 +131,7 @@ FIRST MODEL
 			lightgbm 55.8252
 			rf MAE 55.8753
 		
-	Pycaret 5
+	Pycaret 6
 		df_dum
 			int deptDayOfMonth
 			int deptDayOfYear
@@ -130,7 +146,7 @@ FIRST MODEL
 			et MAE 25.9583
 			rf MAE 26.5741
 			
-	Pycaret 6
+	Pycaret 7
 		df_dum2
 			int deptDateTimeOrd
 			int deptHour
@@ -143,6 +159,33 @@ FIRST MODEL
 		Extra trees performed the best
 			et MAE 25.6388
 			rf MAE 25.9359
+			
+	Pycaret 8
+		df_dum3
+			float deptDateTimeMktime
+			int deptMonth
+			dummy airlines
+			dummy origin
+			dummy destination
+			dummy deptDayOfWeek
+		Timeseries generator
+		Random Forest performed the best
+			rf MAE 30.0686, RMSE 51.3834, R_squared 0.7357
+		Extra Trees
+			et MAE 30.3032, RMSE 55.2927, R_squared 0.6937
+		
+		
+		
+		
+		
+Tableau Prep Builder
+	Have filtered data (ship mode = 'first class')
+	Applied merges, unions
+	Used common characters to consolidate input error from users
+	Removed letters, creating numeric fields from string fields
+	
+	
+	
 			
 		
 
