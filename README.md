@@ -61,6 +61,10 @@ This project involves four (4) main efforts for predicting these flight prices. 
 
 Once we scrape all the flights we need and perform the comparative analysis, we will have a machine learning model that is Denver-focused and can help to quickly assist the user in selecting a flight which is satisfactory to them! 
 
+### Which Models?
+
+For ML models, 
+
 <a name="results"/>
 
 # Results
