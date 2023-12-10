@@ -1856,8 +1856,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1900' minheight='1900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='76' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='75' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='78' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='77' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='6625' id='10' type-v2='text' w='98400' x='800' y='1000'>
                   <formatted-text>
                     <run fontcolor='#59a14f' fontname='Tableau Bold' fontsize='22'>F L I G H T S     D A S H B O A R D</run>
@@ -1907,7 +1907,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='65' h='9125' id='35' is-fixed='true' name='Frontier Avg' show-title='false' w='23600' x='1300' y='12875'>
-                  <layout-cache cell-count-h='1' type-h='cell' type-w='fixed' />
+                  <layout-cache type-h='cell' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1917,7 +1917,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='65' h='9125' id='36' is-fixed='true' name='United Avg' show-title='false' w='26800' x='25900' y='12875'>
-                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <layout-cache type-h='cell' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1927,7 +1927,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='65' h='9125' id='37' is-fixed='true' name='American Avg' show-title='false' w='20400' x='53700' y='12875'>
-                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <layout-cache type-h='cell' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1967,7 +1967,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='198' h='25764' id='40' is-fixed='true' name='Price by DOW' show-title='false' w='51400' x='1300' y='47125'>
-                  <layout-cache type-h='cell' type-w='fixed' />
+                  <layout-cache cell-count-h='7' non-cell-size-h='101' type-h='cell' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1977,7 +1977,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='234' h='30309' id='45' is-fixed='true' name='Price by Month' show-title='false' w='29500' x='53700' y='64625'>
-                  <layout-cache type-h='cell' type-w='fixed' />
+                  <layout-cache cell-count-h='12' non-cell-size-h='81' type-h='cell' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2491,7 +2491,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='45' />
       <simple-id uuid='{17A35E5B-9738-454C-8B69-782F441ED726}' />
     </window>
   </windows>
