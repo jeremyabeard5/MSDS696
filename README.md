@@ -126,7 +126,7 @@ Tuesdays and Wednesdays look like good days to fly!
 
 ![Avg Price by Month](output/02-avg-price-by-month.png)
 
-January and February are looking pretty cheap as welL!
+January and February are looking pretty cheap as well!
 
 ![Avg Price by Hour](output/04-avg-price-by-hour.png)
 
