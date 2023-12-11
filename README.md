@@ -110,31 +110,85 @@ The reader can also see average price by hour, average price by day of week, ave
 
 ![Calplot](output/07-calendar-01.png)
 
+Spring Break is going to be an expensive time of year, looks like! Sundays are consistently expensive.
+
 ![Price by Datetiime](output/00-price-by-datetime-scatter.png)
+
+Generic scatterplot of the data. That one Thanksgiving Denver-New York flight is waaaaay up there!
 
 ![Avg Price by Day of Year](output/03-avg-price-by-doy.png)
 
+You can see that there is a big gap in the data from late October to early November. This is because I began scraping when it was early November 2023, so I didn't have access to some of the November data. As well, the October 2024 data started to be exorbitantly expensive, maybe because it was so far away. So I excluded most of the October 2024 data. 
+
 ![Avg Price by Day of Week](output/01-avg-price-by-dow.png)
+
+Tuesdays and Wednesdays look like good days to fly!
 
 ![Avg Price by Month](output/02-avg-price-by-month.png)
 
+January and February are looking pretty cheap as welL!
+
 ![Avg Price by Hour](output/04-avg-price-by-hour.png)
+
+Not a whole lot to glean here in my opinion, except for the fact that the API, when queried for Denver-specific flights, didn't seem to have any flights which departed in the hours of 2am, 3am, or 4am. This is strange but maybe it's a trend that I'm not aware of for these specific flight paths or this specific API. 
 
 <a name="results"/>
 
 # Results
 
-For my results, I created a LOT of charts
+The pycaret package was able to generate a lot of different machine learning models in a short amount of time! These models were tweaked over time but gave a good foundation with which to start.
+
+I explored two (2) dimensions in the machine learning context: different pycaret generators, and different date formats.
+
+The two (2) pycaret generators I used were:
+
+* KFolds Generator (default)
+
+* Timeseries Generator
+
+The different datetime formats I used were:
+
+* Parsed Datetimes: parsing the datetime into separate Year/Month/Day/Hour numeric fields.
+
+* Ordinal Datetimes: ordinal datetimes are an integer value which integrates Year/Month/Day. This value does not account for time of day so I included the Hour field as a separate field in these cases.
+
+* time.mktime() Datetimes: the time.mktime() package creates a floating-point value which integrates Year/Month/Day/Hour. This seemed like the best method at first glance, although the results may show differently. 
+
+* datetime: Just using the standard input datetime located in the data. This was only used for the timeseries pycaret models.
+
+* date + separate hour field: Just taking the date from the datetime and formatting it as its own datetime, then including the hour as a separate field. This was also only used for the timeseries pycaret models. 
+
+These two (2) dimensions of pycaret generator and datetime format gave me many combinations to work with. Overall, I had 8 datetime formats submitted to pycaret, 3 for the KFolds Generator and 5 for the Timeseries Generator. I also included one Linear Regression model that wasn't created with pycaret, but included as a baseline. 
+
+The results of all these models are below:
+
+![Model Output](output/05-error-by-model.png)
+
+It appears that the Ordinal date won out! Interestingly enough, the pycaret Timeseries Generator didn't perform as well as the KFolds Generator. This was curious to me. Nevertheless, it appears that the best Mean Absolute Error (MAE) that the models achieved was 22.05. This means that the lowest average difference between the predictions and true flight prices was $22.05 using the Ordinal datetime and the KFolds Generator. The R-squared value is not shown in this chart but the corresponding R-squared value of this model was 0.83. Not bad!
 
 # Conclusions
 
-I reached a handful of conclusions throughout the course of this project, among a variety of contexts and 
+I reached a handful of conclusions throughout the course of this project, among a variety of contexts. Firstly, the main conclusion gleaned was that using the Booking.com API and the pycaret KFolds Generator, Random Forest Model, using Ordinal datetime and a separate Hour field, achieved a 22.05 MAE. 
+
+Another conclusion gained is that there needs to be some regular scheduling of this flight data in order to reduce bias. November prices were shown as extremely high and while this may be true, it may also just be high because the flight data was scraped in early November, when Thanksgiving flight prices are extremely high. 
+
+An additional conclusion gleaned was that the best models from the pycaret package tended to be the Random Forest model and the Extra Trees Regressor model. This was pretty consistent among all the different datetime formats submitted.
+
+A final conclusion is that there is still more to be done with the Timeseries Generator in pycaret! I wasn't satisfied with the performance of the Timeseries Generator in pycaret and I'd like to still spend more time with it. 
 
 <a name="future"/>
 
 # Future Work
 
-This project was a huge learning experience for me and I really enjoyed every aspect of it. I learned a lot about handling time-based data within a machine learning context and how it can perform the best. 
+This project was a huge learning experience for me and I really enjoyed every aspect of it. I learned a lot about handling time-based data within a machine learning context and how it can perform the best. I also learned a lot about different visualization types like the calendar plots and Tableau dashboards. 
+
+Some future work I have in mind so far is:
+
+* More data! I only have 45,000 flights among a handful of airports and overall it's less than a year's worth of data. I'd like to continue adding to this sqlite3 database!
+
+* Implement more feature engineering! There weren't a ton of features that I thought were useful (I didn't think many features from the API would correlate with flight price). The main features were datetime, origin location, destination location, and airline. This could be expanded upon in the future.
+
+* I'd like to continue working with Tableau dashboards and implement more advanced features. Tableau seems like a really user-friendly tool and I had a great time putting together dashboards. It's a nice blend of art and science. 
 
 Thank you!
 
