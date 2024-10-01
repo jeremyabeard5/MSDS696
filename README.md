@@ -114,7 +114,7 @@ Spring Break is going to be an expensive time of year, looks like! Sundays are c
 
 ![Price by Datetiime](output/00-price-by-datetime-scatter.png)
 
-Generic scatterplot of the data. That one Thanksgiving Denver-New York flight is waaaaay up there!
+Generic scatterplot of the data. I would definitely not recommend flying on Thanksgiving from Denver to New York.
 
 ![Avg Price by Day of Year](output/03-avg-price-by-doy.png)
 
