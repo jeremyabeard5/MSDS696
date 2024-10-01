@@ -36,8 +36,8 @@ class Logger(object):
        self.log.flush()
 
 headers = {
-	"X-RapidAPI-Key": "347c541513msh80c201a41e39ddep1dd960jsnf10b2afec703",
-	"X-RapidAPI-Host": "sky-scrapper.p.rapidapi.com"
+	"X-RapidAPI-Key": os.getenv('RAPIDAPI_KEY'),
+	"X-RapidAPI-Host": os.getenv('RAPIDAPI_HOST')
 }
 
 ####################################
@@ -135,8 +135,8 @@ def get_flights(origin_location, destination_location, date):
     #querystring = {"location_from":"Denver, USA, Colorado","location_to":"Cincinnati, USA, Ohio","departure_date":"2023-12-19","page":"1","country_flag":"us","number_of_stops":"NonstopFlights"}
 
     headers = {
-        "X-RapidAPI-Key": "347c541513msh80c201a41e39ddep1dd960jsnf10b2afec703",
-        "X-RapidAPI-Host": "booking-com13.p.rapidapi.com"
+        "X-RapidAPI-Key": os.getenv('RAPIDAPI_KEY'),
+        "X-RapidAPI-Host": os.getenv('RAPIDAPI_HOST')
     }
 
     response = requests.get(url, headers=headers, params=querystring)
