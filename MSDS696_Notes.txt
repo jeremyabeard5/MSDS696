@@ -180,14 +180,80 @@ FIRST MODEL
 		
 Tableau Prep Builder
 	Have filtered data (ship mode = 'first class')
+	Creating calculated fields from existing fields
 	Applied merges, unions
 	Used common characters to consolidate input error from users
 	Removed letters, creating numeric fields from string fields
 	
+Normal Forms	
+https://www.youtube.com/watch?v=GFQaEYEc8_8
+1NF - First Normal Form
+	No mixing datatypes
+	Always have primary key
+	Order doesn't matter
+	Don't have repeating data items in one row (Item 1, Qty 1, Item 2, Qty 2, etc.)
 	
+2NF
+	Each non-key attribute must depend on the entire primary key (if there are multiple keys/parts of the key)
+		(when 'Player_ID' and 'Item_Type' are keys in a table but 'Player_Rating' only depends on 'Player_ID')
+	Solution: separate out into different tables which are both normalized to 2NF
 	
-			
+3NF
+	Forbids dependency of non-key attributes on each other ('Player_Rating' depending on 'Player_Skill_Level')
+	Solution: Remove the attributes which are dependent, and add a decoder ring table
+	"Every attribute in a table should depend on the key, the whole key, and nothing but the key" (Boyce-Codd NF)
+	
+
+	
 		
+
+Emily call
+1030
+justin sent info
+she's only tech recruiter
+been there 10months
+75 people when joined
+close 120employees now
+series A - 3 years old
+
+turquoise slice
+	healtchare price transparency
+		legislation passed "hospital price transparency rule"
+		states payers/providers mandated to publicize pricing data
+		people don't know how much they are going to pay
+		hospitals and insurance companies didn't have the data
+	co-founders spent a lot of time in the health space
+	the raw data is virtually useless
+		messy unstructured
+		organized by medical billing code, CPT code
+	processing petabytes of data on a monthly data
+	scrapes data from thousands of sources, into ONE platform
+	B2B org (work with other businesses)
+	SMB arm (private practices, independent services)
+	
+	where does data science come in?
+		~35 engineers total
+			3 groups
+				data eng, data sci, product eng
+					eng: raw data ingestion and processing
+					prod: different B2B products,
+						have contracting products, etc
+					sci: data products, help customer derive value from collected data
+						have to understand the "WHY" so you can do the "HOW"
+						data pipelines, data cleaning
+						collaborating with data product managers, solutions engineers(customer-facing), 
+						working in Python, SQL, Tableau
+					Location: remote
+						once a quarter we have a team or company offsite
+					Interviewing Process:
+					Salary Band: 125-155
+	A lot of people out for the holidays
+		do technical interview with hiring manager (Python)
+			wiith Maya
+		one SQL interview, one product interview, one Python interview
+		
+						
+
 
 
 
